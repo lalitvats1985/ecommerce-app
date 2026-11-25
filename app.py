@@ -18,7 +18,7 @@ def main():
     print(products())
     print(shopping_cart())
     print(payment())
-    print(order))
+    print(order())
 
 if __name__ == "__main__":
     main()
