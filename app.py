@@ -10,6 +10,9 @@ def shopping_cart():
 def payment():
     return "Payment Gateway"
 
+def order():
+    return "order"
+
 def main():
     print(home())
     print(products())
