@@ -7,10 +7,14 @@ def products():
 def shopping_cart():
     return "Shopping Cart"
 
+def payment():
+    return "Payment Gateway"
+
 def main():
     print(home())
     print(products())
     print(shopping_cart())
+    print(payment())
 
 if __name__ == "__main__":
     main()
